@@ -106,6 +106,7 @@ CREATE TABLE
         `ID_EXP_TYPE` INT NOT NULL,
         PRIMARY KEY (
             `ID_EXPENSES`,
+            `ID_USER`,
             `ID_EXP_TYPE`
         ),
         INDEX `fk_TB_EXPENSES_TB_USER1_idx` (`ID_USER` ASC),
