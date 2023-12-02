@@ -94,16 +94,23 @@ VALUES
 
 INSERT INTO TB_EXPENSES_TYPE (TYPE, DESCRIPTION)
 VALUES 
-    ('fixo', 'Água'),
-    ('variável', 'Entretenimento'),
-    ('fixo', 'Energia Elétrica'),
-    ('variável', 'Compras Específicas'),
-    ('fixo', 'Internet'),
-    ('variável', 'Restaurante'),
-    ('fixo', 'Aluguel'),
-    ('variável', 'Viagem'),
-    ('fixo', 'Telefone'),
-    ('variável', 'Lazer');
+    ('E', 'Água'),
+    ('L', 'Entretenimento'),
+    ('E', 'Energia Elétrica'),
+    ('N', 'Compras Específicas'),
+    ('N', 'Internet'),
+    ('L', 'Restaurante'),
+    ('E', 'Aluguel'),
+    ('L', 'Viagem'),
+    ('N', 'Telefone'),
+    ('L', 'Lazer'),
+    ('E', 'Conta de Luz'),
+    ('L', 'Parque'),
+    ('E', 'Educação'),
+    ('E', 'Alimentação / Supermercado'),
+    ('E', 'Seguros'),
+    ('N', 'Beleza e estética'),
+    ('L', 'Entretenimento');
 
 --------------------
 -- Carga de despesas
